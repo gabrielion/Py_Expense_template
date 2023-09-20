@@ -51,7 +51,6 @@ def new_expense(*args):
             payback_dict = {
                 'user' : user,
                 'payback_amount': payback_amount,
-                'payback_person': spender['spender']
             }
             paybacks.append(payback_dict)
 
