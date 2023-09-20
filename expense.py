@@ -47,7 +47,7 @@ def new_expense(*args):
     paybacks = []
     for user in involved_users['involved_users']:
         if user != spender['spender']:
-            payback_amount = float(amount['amount']) / len(involved_users)
+            payback_amount = float(amount['amount']) / len(involved_users['involved_users'])
             payback_dict = {
                 'user' : user,
                 'payback_amount': payback_amount,
