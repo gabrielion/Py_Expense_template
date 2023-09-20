@@ -27,11 +27,6 @@ spender_question = [
     },
 ]
 
-def get_splitted_amount(amount, num_involved_users):
-    float_amount = float(amount)
-    split_amount = amount / num_involved_users
-    return split_amount
-
 
 def new_expense(*args):
     amount = prompt(amount_question)
